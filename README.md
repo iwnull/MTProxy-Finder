@@ -99,3 +99,94 @@ Set against a dark navy gradient background for a professional look.
 1. **Clone the repository**
    ```bash
    git clone https://github.com/iwnull/MTProxy-Finder.git
+   Open in Android Studio
+
+File → Open → Select the project folder
+
+Build the project
+
+Wait for Gradle sync to complete
+
+Build → Make Project
+
+Run the app
+
+Select an emulator or physical device
+
+Click Run ▶️
+
+📥 Download APK
+Option 1: Direct Download
+Download Latest APK
+
+Option 2: Build Yourself
+bash
+./gradlew assembleDebug
+# or for release build
+./gradlew assembleRelease
+The APK will be generated at:
+
+text
+app/build/outputs/apk/debug/app-debug.apk
+🎯 Roadmap
+Core proxy management
+
+Speed testing system
+
+Multi-language support
+
+Bulk import/export
+
+Proxy sharing feature
+
+Dark/Light theme toggle
+
+Background update service
+
+Widget support
+
+🤝 Contributing
+Contributions are what make the open-source community such an amazing place! Any contributions you make are greatly appreciated.
+
+Fork the Project
+
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+
+Push to the Branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+📄 License
+Distributed under the MIT License. See LICENSE file for more information.
+
+text
+MIT License
+
+Copyright (c) 2026 iwnull
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
+📞 Contact & Support
+GitHub: @iwnull
+
+Project Link: https://github.com/iwnull/MTProxy-Finder
+
+Issues: Report Bug
+
+🙏 Acknowledgments
+Telegram MTProto Proxy - Protocol documentation
+
+Jetpack Compose Documentation
+
+All contributors and testers
+
+<div align="center">
+Made with ❤️ by iwnull
+
+⭐ Star this repo if you find it useful!
+
+</div>
+
