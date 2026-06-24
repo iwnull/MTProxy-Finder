@@ -94,8 +94,29 @@ Set against a dark navy gradient background for a professional look.
 - JDK **11** or higher
 - Android SDK **API 24+** (Android 7.0)
 
-### Installation
+## 🎯 Roadmap
+Core proxy management
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/iwnull/MTProxy-Finder.git
+Speed testing system
+
+Multi-language support
+
+Bulk import/export
+
+Proxy sharing feature
+
+Dark/Light theme toggle
+
+Background update service
+
+Widget support
+
+## 🤝 Contributing
+Contributions are what make the open-source community such an amazing place! Any contributions you make are greatly appreciated.
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+
+
