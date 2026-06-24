@@ -95,21 +95,14 @@ Set against a dark navy gradient background for a professional look.
 - Android SDK **API 24+** (Android 7.0)
 
 ## 🎯 Roadmap
-Core proxy management
-
-Speed testing system
-
-Multi-language support
-
-Bulk import/export
-
-Proxy sharing feature
-
-Dark/Light theme toggle
-
-Background update service
-
-Widget support
+### Core proxy management
+### Speed testing system
+### Multi-language support
+### Bulk import/export
+### Proxy sharing feature
+### Dark/Light theme toggle
+### Background update service
+### Widget support
 
 ## 🤝 Contributing
 Contributions are what make the open-source community such an amazing place! Any contributions you make are greatly appreciated.
