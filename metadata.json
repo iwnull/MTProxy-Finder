@@ -1,0 +1,6 @@
+{
+  "name": "MTProto Proxy Checker",
+  "description": "برنامه حرفه‌ای تست و بررسی پروکسی‌های MTProto تلگرام با نمایش لحظه‌ای سرعت، پایداری و اتصال مستقیم",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
