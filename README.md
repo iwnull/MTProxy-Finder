@@ -1,21 +1,101 @@
+# 🚀 MTProxy-Finder
+
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
+![Material 3](https://img.shields.io/badge/Material%203-757575?style=for-the-badge&logo=materialdesign&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+**Smart Telegram MTProxy manager with speed test, bulk import, and multi-language support**
+
+[Report Bug](https://github.com/iwnull/MTProxy-Finder/issues) · [Request Feature](https://github.com/iwnull/MTProxy-Finder/issues)
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 📱 About The Project
 
-View your app in AI Studio: https://ai.studio/apps/2738275f-359d-45cc-ad57-e726fa129301
+**MTProxy-Finder** is a fully native, modern Android application built with **Jetpack Compose** and **Material 3** design. It's specifically designed to test, fetch, and manage Telegram MTProxy servers efficiently.
 
-## Run Locally
+Whether you're looking for the fastest connection or the most stable proxies, this app provides a seamless experience with intelligent filtering and real-time speed testing.
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+---
 
+## ✨ Key Features
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+### 🧠 Smart Speed Test & Proxy Classification
+
+| Feature | Description |
+|---------|-------------|
+| **Most Stable** | Intelligently filters and displays only **domain-based proxies** that are fully online and active. Temporary proxies and direct IPs are automatically filtered out. |
+| **Fastest** | All active online proxies are sorted by **lowest ping** to ensure the best possible connection speed. |
+
+### 🔄 Intelligent Incremental Update System
+
+- When you tap the **"Get Proxies"** button, the app compares GitHub server content with your local database
+- If no new updates exist, shows **"No new updates available"** to save your mobile data
+- When new proxies are found, it fetches them and **automatically cleans outdated/inactive proxies** from your database
+
+### 🌍 Multi-Language Support
+
+| Language | Status |
+|----------|--------|
+| 🇮🇷 Persian (Farsi) | ✅ Full Support |
+| 🇬🇧 English | ✅ Full Support |
+| 🇷🇺 Russian | ✅ Full Support |
+
+> **Dynamic RTL/LTR** switching based on selected language!
+
+### 📦 Comprehensive Proxy Management
+
+- **Bulk Import**: Copy and paste multiple proxy links or texts at once
+- **Manual Single**: Define server, port, and secret code individually
+- **Clean Database**: One-click cleanup with security confirmation
+- **Bento Card Dashboard**: Real-time network stability percentage, active counts, and average ping with dynamic bar charts
+
+### 🎨 Custom Modern Icon
+
+A beautifully designed icon combining:
+- ✈️ Telegram paper plane
+- ⚡ Lightning bolt (speed indicator)
+- 🛡️ Security shield
+
+Set against a dark navy gradient background for a professional look.
+
+---
+
+## 📸 Screenshots
+
+| Dashboard | Proxy List | Settings |
+|-----------|------------|----------|
+| *(Add screenshot here)* | *(Add screenshot here)* | *(Add screenshot here)* |
+
+---
+
+## 🛠️ Built With
+
+- **[Kotlin](https://kotlinlang.org/)** - Primary programming language
+- **[Jetpack Compose](https://developer.android.com/jetpack/compose)** - Modern UI toolkit
+- **[Material 3](https://m3.material.io/)** - Design system
+- **[Room Database](https://developer.android.com/training/data-storage/room)** - Local storage
+- **[Coroutines & Flow](https://kotlinlang.org/docs/coroutines-overview.html)** - Asynchronous operations
+- **[GitHub API](https://docs.github.com/en/rest)** - Proxy update fetching
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Android Studio **Flamingo** (2022.2.1) or higher
+- JDK **11** or higher
+- Android SDK **API 24+** (Android 7.0)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/iwnull/MTProxy-Finder.git
