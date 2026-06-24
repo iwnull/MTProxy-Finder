@@ -67,14 +67,6 @@ Set against a dark navy gradient background for a professional look.
 
 ---
 
-## 📸 Screenshots
-
-| Dashboard | Proxy List | Settings |
-|-----------|------------|----------|
-| *(Add screenshot here)* | *(Add screenshot here)* | *(Add screenshot here)* |
-
----
-
 ## 🛠️ Built With
 
 - **[Kotlin](https://kotlinlang.org/)** - Primary programming language
